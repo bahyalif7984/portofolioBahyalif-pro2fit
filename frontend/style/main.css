@@ -1328,8 +1328,8 @@ footer .footerCopyright .sosial-media img {
     margin-right: 1vh;
   }
   .header .deskripsi .button .btn-get:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
-    background: linear-gradient(#224780 0%, #0167FF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0666f7), to(#0167FF));
+    background: linear-gradient(#0666f7 0%, #0167FF 100%);
   }
   .header .deskripsi .button .btn-play {
     cursor: pointer;
@@ -1427,7 +1427,7 @@ footer .footerCopyright .sosial-media img {
   .appPro .appro2 .deskripsi .button {
     position: absolute;
     margin-left: 2vh;
-    margin-top: -2vh;
+    margin-top: -3.2vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1447,8 +1447,8 @@ footer .footerCopyright .sosial-media img {
     margin-right: 5px;
   }
   .appPro .appro2 .deskripsi .button .btn-get:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
-    background: linear-gradient(#224780 0%, #0167FF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0666f7), to(#0167FF));
+    background: linear-gradient(#0666f7 0%, #0167FF 100%);
   }
   .appPro .appro2 .deskripsi .button .btn-play {
     cursor: pointer;
@@ -1475,11 +1475,11 @@ footer .footerCopyright .sosial-media img {
     width: 100%;
     top: 2.4vh;
     left: 0.2vh;
-    font-size: 1vh;
+    font-size: 5px;
   }
   .appPro .appro2 .deskripsi .button .btn-play .bold {
     position: absolute;
-    font-size: 1vh;
+    font-size: 5px;
     top: 3.7vh;
     left: 1.5vh;
     color: #dddddd;
@@ -1510,11 +1510,11 @@ footer .footerCopyright .sosial-media img {
     width: 100%;
     top: 2.3vh;
     left: 1.4vh;
-    font-size: 1vh;
+    font-size: 5px;
   }
   .appPro .appro2 .deskripsi .button .btn-ios .bold {
     position: absolute;
-    font-size: 1vh;
+    font-size: 5px;
     top: 3.9vh;
     left: 0.1vh;
     color: #dddddd;
