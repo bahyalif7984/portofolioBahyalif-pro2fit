@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+*:focus {
+  outline: none !important;
+}
+
 .container {
   overflow: hidden;
 }
@@ -438,6 +442,10 @@ body {
 
 .benefit .benefit2 .deskripsi p {
   font-size: 3vh;
+}
+
+.benefit .benefit2 .pict-product {
+  margin-top: 8vh;
 }
 
 .testimoni {
@@ -1222,59 +1230,11 @@ footer .footerCopyright .sosial-media img {
   }
 }
 
-@media (orientation: portrait) and (max-width: 350px) {
-  .testimoni .judul {
-    margin-bottom: 50px;
-  }
-  .testimoni .judul h1 {
-    color: #00337F;
-    text-align: center;
-    font-size: 3vh;
-  }
-  .testimoni card {
-    border: 1px solid #EAEAEA;
-    width: auto;
-    margin: 10px;
-    height: 100px;
-  }
-  .testimoni card:hover {
-    background-image: -webkit-gradient(linear, left top, right top, from(#00337F), to(#0061F2));
-    background-image: linear-gradient(90deg, #00337F, #0061F2);
-  }
-  .testimoni card figure {
-    margin: -1px;
-  }
-  .testimoni card figure img {
-    width: 100px;
-  }
-  .testimoni card .deskription {
-    margin-top: 5px;
-  }
-  .testimoni card .deskription h1 {
-    font-size: 3vh;
-  }
-  .testimoni card .deskription p {
-    font-size: 2vh;
-    height: 57px;
-    overflow: hidden;
-    margin-top: -5px;
-  }
-  .testimoni card .deskription p:hover {
-    overflow-y: scroll;
-    height: 57px;
-  }
-  .testimoni card .deskription .image-star-review {
-    font-size: 10px;
-    margin-left: -1px;
-    margin-top: -15px;
-  }
-}
-
-@media (orientation: portrait) and (min-width: 320px) and (max-width: 800px) {
+@media (orientation: portrait) and (max-width: 400px) {
   .header {
     height: 120vh;
     background-image: url("../image/Group 10821.png");
-    background-size: 35vh;
+    background-size: 28vh;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     position: relative;
@@ -1328,8 +1288,487 @@ footer .footerCopyright .sosial-media img {
     position: absolute;
     display: -ms-grid;
     display: grid;
-    height: 30%;
-    margin-left: 1vh;
+    height: 20%;
+    margin-left: 2vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .header .deskripsi p {
+    width: 40%;
+    font-size: 1.6vh;
+    margin: -5px 0 10px 0;
+  }
+  .header .deskripsi .button {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -1vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+    height: 5vh;
+    font-size: 1vh;
+    margin-right: 1vh;
+  }
+  .header .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .header .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 1vh;
+  }
+  .header .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 3.5vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-play p {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 1.5vh;
+    left: -0.5vh;
+    font-size: 1vh;
+  }
+  .header .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1vh;
+    left: 0.8vh;
+    top: 3vh;
+    color: #ffffff;
+  }
+  .header .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 10px;
+  }
+  .header .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .header .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 3.3vh;
+    top: 20%;
+  }
+  .header .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 1.7vh;
+    left: 1.5vh;
+    font-size: 1vh;
+  }
+  .header .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1vh;
+    left: 0.3vh;
+    top: 3.1vh;
+    color: #dddddd;
+  }
+  .header .menu-toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .appPro {
+    margin-top: -65vh;
+  }
+  .appPro .appro2 .deskripsi {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: deskripsi;
+  }
+  .appPro .appro2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .appPro .appro2 .deskripsi p {
+    font-size: 1.4vh;
+    margin-top: -1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button {
+    position: absolute;
+    margin-left: 2vh;
+    margin-top: -2vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get {
+    color: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
+    background: linear-gradient(#00337F 0%, #0167FF 100%);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+    height: 5vh;
+    font-size: 1vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-get:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
+    background: linear-gradient(#224780 0%, #0167FF 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play {
+    cursor: pointer;
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-play img {
+    position: absolute;
+    left: 0px;
+    width: 3vh;
+    top: 1.5vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 2.4vh;
+    left: 0.2vh;
+    font-size: 1vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-play .bold {
+    position: absolute;
+    font-size: 1vh;
+    top: 3.7vh;
+    left: 1.5vh;
+    color: #dddddd;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios {
+    position: relative;
+    background-color: #000000;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;
+    width: 11vh;
+    height: 5vh;
+    margin-right: 10px;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
+    background: linear-gradient(#504f4f 25%, #000000 100%);
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios img {
+    position: absolute;
+    left: 0px;
+    width: 3vh;
+    top: 20%;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios p {
+    color: #dddddd;
+    position: absolute;
+    width: 100%;
+    top: 2.3vh;
+    left: 1.4vh;
+    font-size: 1vh;
+  }
+  .appPro .appro2 .deskripsi .button .btn-ios .bold {
+    position: absolute;
+    font-size: 1vh;
+    top: 3.9vh;
+    left: 0.1vh;
+    color: #dddddd;
+  }
+  .benefit {
+    background-color: #EFEFEF;
+    height: 30vh;
+    width: 100%;
+  }
+  .benefit .benefit2 .deskripsi {
+    width: 80%;
+    margin-top: 2vh;
+    height: 100%;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: deskripsi;
+  }
+  .benefit .benefit2 .deskripsi h1 {
+    color: #00337F;
+    font-size: 3vh;
+  }
+  .benefit .benefit2 .deskripsi p {
+    font-size: 1.5vh;
+    margin-top: -2vh;
+  }
+  .benefit .benefit2 .pict-product {
+    margin-top: 7vh;
+  }
+  .diference {
+    height: 70vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -10vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .diference .diference2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+  }
+  .diference .diference2 .deskripsi {
+    margin-top: -20px;
+    width: 100%;
+    overflow: hidden;
+    height: 20vh;
+    margin-top: -3px;
+  }
+  .diference .diference2 .deskripsi:hover {
+    overflow: scroll;
+    height: 20vh;
+    margin-top: -3px;
+  }
+  .diference .diference2 .deskripsi h1 {
+    color: #00337F;
+    margin: 20px;
+    margin-top: -0px;
+    font-size: 3vh;
+  }
+  .diference .diference2 .deskripsi .paragraf {
+    margin-top: -2vh;
+  }
+  .diference .diference2 .deskripsi .paragraf p {
+    font-size: 1.4vh;
+    margin-top: -1vh;
+    margin-left: 20px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -27.65vh;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    display: none;
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 100%;
+    font-size: 1.5vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 1.4vh;
+    margin: 10px 0px 0px -30px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 4vh;
+  }
+  .contack .contack2 card {
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 3vh;
+  }
+  .testimoni .judul {
+    margin-bottom: 50px;
+  }
+  .testimoni .judul h1 {
+    color: #00337F;
+    text-align: center;
+    font-size: 3vh;
+  }
+  .testimoni card {
+    border: 1px solid #EAEAEA;
+    width: auto;
+    margin: 10px;
+    height: 100px;
+  }
+  .testimoni card:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(#00337F), to(#0061F2));
+    background-image: linear-gradient(90deg, #00337F, #0061F2);
+  }
+  .testimoni card figure {
+    margin: -1px;
+  }
+  .testimoni card figure img {
+    width: 100px;
+  }
+  .testimoni card .deskription {
+    margin-top: 5px;
+  }
+  .testimoni card .deskription h1 {
+    font-size: 2vh;
+  }
+  .testimoni card .deskription p {
+    font-size: 1.5vh;
+    height: 54px;
+    overflow: hidden;
+    margin-top: -5px;
+  }
+  .testimoni card .deskription p:hover {
+    overflow-y: scroll;
+    height: 54px;
+  }
+  .testimoni card .deskription .image-star-review {
+    font-size: 10px;
+    margin-left: -1px;
+    margin-top: -15px;
+  }
+  footer .footerIsRed {
+    margin-left: -2vh;
+  }
+  footer .footerCopyright {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+  }
+  footer .footerCopyright .txt {
+    padding-right: 40px;
+    font-size: 1.5vh;
+    width: 55%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: auto 0;
+    color: #ffffff;
+  }
+  footer .footerCopyright .sosial-media img {
+    margin-top: -5px;
+    margin-right: 15px;
+    width: 15px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 420px) and (max-width: 800px) {
+  .header {
+    height: 120vh;
+    background-image: url("../image/Group 10821.png");
+    background-size: 28vh;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: relative;
+  }
+  .header nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 30px 30px;
+    margin-left: -1vh;
+  }
+  .header nav figure img {
+    width: 12vh;
+    margin-top: 20px;
+  }
+  .header nav .slide {
+    right: 0%;
+    opacity: 1;
+    right: 0;
+  }
+  .header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-left: 80vh;
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    top: 0;
+    z-index: 1;
+    right: -50%;
+    width: 53%;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: rgba(23, 74, 212, 0.7);
+    padding: 20px 0;
+    opacity: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header nav ul li a {
+    color: #ffffff;
+    font-size: 2vh;
+  }
+  .header .deskripsi {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    height: 20%;
+    margin-left: 2vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1348,6 +1787,7 @@ footer .footerCopyright .sosial-media img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: -1vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1459,11 +1899,12 @@ footer .footerCopyright .sosial-media img {
   }
   .appPro .appro2 .deskripsi p {
     font-size: 1.4vh;
-    margin-top: 1vh;
+    margin-top: -1vh;
   }
   .appPro .appro2 .deskripsi .button {
     position: absolute;
     margin-left: 2vh;
+    margin-top: -1vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1510,14 +1951,14 @@ footer .footerCopyright .sosial-media img {
     color: #dddddd;
     position: absolute;
     width: 100%;
-    top: 0.1vh;
+    top: 1.8vh;
     left: 0.2vh;
     font-size: 1vh;
   }
   .appPro .appro2 .deskripsi .button .btn-play .bold {
     position: absolute;
     font-size: 1vh;
-    top: 1.4vh;
+    top: 3vh;
     left: 1.5vh;
     color: #dddddd;
   }
@@ -1545,14 +1986,14 @@ footer .footerCopyright .sosial-media img {
     color: #dddddd;
     position: absolute;
     width: 100%;
-    top: 0.1vh;
+    top: 1.8vh;
     left: 1.4vh;
     font-size: 1vh;
   }
   .appPro .appro2 .deskripsi .button .btn-ios .bold {
     position: absolute;
     font-size: 1vh;
-    top: 1.4vh;
+    top: 3vh;
     left: 0.1vh;
     color: #dddddd;
   }
@@ -1575,9 +2016,10 @@ footer .footerCopyright .sosial-media img {
   }
   .benefit .benefit2 .deskripsi p {
     font-size: 1.5vh;
+    margin-top: -1vh;
   }
   .benefit .benefit2 .pict-product {
-    margin-top: 6vh;
+    margin-top: 7vh;
   }
   .diference {
     height: 70vh;
@@ -1673,6 +2115,9 @@ footer .footerCopyright .sosial-media img {
   .contack .contack2 card h1 {
     font-size: 3vh;
   }
+  footer .footerIsRed {
+    margin-left: 3.5vh;
+  }
   footer .footerCopyright {
     width: 100%;
     -webkit-box-align: center;
@@ -1683,7 +2128,7 @@ footer .footerCopyright .sosial-media img {
   footer .footerCopyright .txt {
     padding-right: 40px;
     font-size: 1.5vh;
-    width: 50%;
+    width: 70%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1697,7 +2142,10 @@ footer .footerCopyright .sosial-media img {
   }
 }
 
-@media (min-width: 470px) and (max-width: 500px) {
+@media (min-width: 450px) and (max-width: 500px) {
+  .header {
+    background-size: 66vh;
+  }
   .header .deskripsi {
     position: absolute;
     display: -ms-grid;
@@ -2028,6 +2476,57 @@ footer .footerCopyright .sosial-media img {
     font-size: 10px;
     margin-left: -1px;
     margin-top: -15px;
+  }
+  .contack {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -43px;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../image/Bg.png"), -webkit-gradient(linear, left top, right top, from(#0059DE), color-stop(#00337F), color-stop(#003481), color-stop(#0049B4), to(#0063F5));
+    background-image: url("../image/Bg.png"), linear-gradient(90deg, #0059DE, #00337F, #003481, #0049B4, #0063F5);
+  }
+  .contack .contack2 {
+    overflow: hidden;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.7fr 0.9fr;
+        grid-template-columns: 0.7fr 0.9fr;
+  }
+  .contack .contack2 .content-contack {
+    width: 60%;
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+    color: #ffffff;
+  }
+  .contack .contack2 .content-contack h1 {
+    width: 100%;
+    font-size: 3vh;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul {
+    list-style: none;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li {
+    font-size: 3vh;
+    margin: 10px 0px 0px -10px;
+  }
+  .contack .contack2 .content-contack .contact-numberr ul li i {
+    margin-left: 7vh;
+  }
+  .contack .contack2 card {
+    margin-top: 4.3vh;
+    padding: 3vh;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .contack .contack2 card h1 {
+    font-size: 4vh;
   }
 }
 
