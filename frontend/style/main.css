@@ -1408,6 +1408,7 @@ footer .footerCopyright .sosial-media img {
   }
   .appPro {
     margin-top: -75vh;
+    z-index: 1;
   }
   .appPro .appro2 .deskripsi {
     margin-top: -0.6vh;
