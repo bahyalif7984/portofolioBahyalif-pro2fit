@@ -1437,11 +1437,11 @@ footer .footerCopyright .sosial-media img {
     background: -webkit-gradient(linear, left top, left bottom, from(#00337F), to(#0167FF));
     background: linear-gradient(#00337F 0%, #0167FF 100%);
     border: none;
-    border-radius: 1vh;
+    border-radius: 5px;
     cursor: pointer;
     width: auto;
     padding: 5px;
-    height: 5vh;
+    height: 20px;
     font-size: 1vh;
     margin-right: 5px;
   }
@@ -1453,11 +1453,10 @@ footer .footerCopyright .sosial-media img {
     cursor: pointer;
     position: relative;
     background-color: #000000;
-    border-radius: 1vh;
+    border-radius: 5px;
     border: none;
     width: 11vh;
-    height: 5vh;
-    margin-right: 5px;
+    height: 20px;
   }
   .appPro .appro2 .deskripsi .button .btn-play:hover {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
@@ -1467,7 +1466,7 @@ footer .footerCopyright .sosial-media img {
     position: absolute;
     left: 0px;
     width: 3vh;
-    top: 1.5vh;
+    top: 1vh;
   }
   .appPro .appro2 .deskripsi .button .btn-play p {
     color: #dddddd;
@@ -1487,11 +1486,11 @@ footer .footerCopyright .sosial-media img {
   .appPro .appro2 .deskripsi .button .btn-ios {
     position: relative;
     background-color: #000000;
-    border-radius: 1vh;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
     width: 11vh;
-    height: 5vh;
+    height: 20px;
     margin-right: 10px;
   }
   .appPro .appro2 .deskripsi .button .btn-ios:hover {

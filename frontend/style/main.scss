@@ -1392,11 +1392,11 @@ body{
                         color: #ffffff;
                         background: linear-gradient( #00337F 0%, #0167FF 100%);
                         border: none;
-                        border-radius: 1vh;
+                        border-radius: 5px;
                         cursor: pointer;
                         width: auto;
                           padding: 5px;
-                         height: 5vh;
+                         height: 20px;
                         font-size: 1vh;
                         margin-right: 5px;
                         &:hover{
@@ -1407,11 +1407,11 @@ body{
                         cursor: pointer;
                          position: relative;
                          background-color: #000000;
-                         border-radius: 1vh;
+                         border-radius: 5px;
                          border: none; 
                          width: 11vh;
-                         height: 5vh;
-                         margin-right: 5px;
+                         height: 20px;
+                  
                          &:hover{
                              background: linear-gradient(  #504f4f 25%,  #000000 100%);
                          }
@@ -1419,7 +1419,7 @@ body{
                             position: absolute;
                             left: 0px;
                             width: 3vh;
-                            top: 1.5vh;
+                            top: 1vh;
                         }
                         p{
                             color: #dddddd;
@@ -1443,11 +1443,11 @@ body{
                     .btn-ios{
                         position: relative;
                         background-color: #000000;
-                        border-radius: 1vh;
+                        border-radius: 5px;
                         border: none;
                         cursor: pointer;
                         width: 11vh;
-                        height: 5vh;
+                        height: 20px;
                         margin-right: 10px;
                         &:hover{
                             background: linear-gradient(  #504f4f 25%,  #000000 100%);
