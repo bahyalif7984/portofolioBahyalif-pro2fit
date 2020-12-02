@@ -1194,7 +1194,7 @@ body{
 @media (orientation :portrait) and (max-width:400px){
     .header{
        
-        height: 120vh;
+        height: 100vh;
         background-image: url('../image/Group 10821.png');
         background-size: 130px;
          background-repeat: no-repeat;
@@ -1362,16 +1362,17 @@ body{
         }
     }
     .appPro{
-        margin-top: -75vh;
+      margin-top: -55vh;
         z-index: 1;
         .appro2{
             figure{
-                
+                // width: 10vh;
                 img{
+                    
                 }
             }
             .deskripsi{
-                height: 100vh;
+              
                 margin-top: -0.6vh;
                 grid-area: deskripsi;
                 h1{

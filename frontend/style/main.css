@@ -1232,7 +1232,7 @@ footer .footerCopyright .sosial-media img {
 
 @media (orientation: portrait) and (max-width: 400px) {
   .header {
-    height: 120vh;
+    height: 100vh;
     background-image: url("../image/Group 10821.png");
     background-size: 130px;
     background-repeat: no-repeat;
@@ -1407,11 +1407,10 @@ footer .footerCopyright .sosial-media img {
     display: flex;
   }
   .appPro {
-    margin-top: -75vh;
+    margin-top: -55vh;
     z-index: 1;
   }
   .appPro .appro2 .deskripsi {
-    height: 100vh;
     margin-top: -0.6vh;
     -ms-grid-row: 1;
     -ms-grid-column: 1;
