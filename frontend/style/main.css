@@ -1234,7 +1234,7 @@ footer .footerCopyright .sosial-media img {
   .header {
     height: 120vh;
     background-image: url("../image/Group 10821.png");
-    background-size: 28vh;
+    background-size: 130px;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     position: relative;
@@ -1299,7 +1299,7 @@ footer .footerCopyright .sosial-media img {
     font-size: 3vh;
   }
   .header .deskripsi p {
-    width: 40%;
+    width: 50%;
     font-size: 1.6vh;
     margin: -5px 0 10px 0;
   }
@@ -1442,7 +1442,7 @@ footer .footerCopyright .sosial-media img {
     padding: 5px;
     height: 5vh;
     font-size: 1vh;
-    margin-right: 1.5vh;
+    margin-right: 5px;
   }
   .appPro .appro2 .deskripsi .button .btn-get:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(#224780), to(#0167FF));
@@ -1456,7 +1456,7 @@ footer .footerCopyright .sosial-media img {
     border: none;
     width: 11vh;
     height: 5vh;
-    margin-right: 1.5vh;
+    margin-right: 5px;
   }
   .appPro .appro2 .deskripsi .button .btn-play:hover {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #504f4f), to(#000000));
@@ -1522,6 +1522,7 @@ footer .footerCopyright .sosial-media img {
     background-color: #EFEFEF;
     height: 30vh;
     width: 100%;
+    margin-top: 10vh;
   }
   .benefit .benefit2 .deskripsi {
     width: 80%;
