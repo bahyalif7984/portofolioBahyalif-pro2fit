@@ -388,10 +388,12 @@ header{
     }
     .pict-product{
         display: flex;
+        height: 100%;
        figure{
         width: 100%;
         img{ width: 100%;}
        }
+       align-items: center;
         justify-content: center;
     }
     }
@@ -1522,11 +1524,13 @@ footer{
         }
         .pict-product{
             display: flex;
+            height: 100%;
            figure{
             width: 100%;
             img{ width: 100%;}
            }
-            justify-content: center;
+           align-items: center;
+            
         }
         }
     }
@@ -2593,4 +2597,13 @@ footer{
       
     }  
   
+  }
+  [data-aos="example-anim1"] {
+    transform: translateX(-10%);
+    opacity: 0;
+    transition-property: transform, opacity;
+    &.aos-animate {
+      transform: translateX(0%);
+      opacity: 1;
+    }
   }
