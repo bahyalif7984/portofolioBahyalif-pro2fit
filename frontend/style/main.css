@@ -760,7 +760,7 @@ footer .footerCopyright .sosial-media img {
   header nav figure img {
     width: 15vh;
     margin-top: 10px;
-    margin-left: 230px;
+    margin-left: 30px;
   }
   header nav ul {
     display: -webkit-box;
@@ -772,7 +772,6 @@ footer .footerCopyright .sosial-media img {
     width: 30%;
     list-style: none;
     margin-top: 10px;
-    margin-left: -35vh;
   }
   header nav ul li a {
     color: #00337F;
@@ -844,7 +843,7 @@ footer .footerCopyright .sosial-media img {
     width: 55%;
   }
   .appPro {
-    margin-top: -500px;
+    margin-top: -80px;
   }
 }
 
@@ -2003,10 +2002,6 @@ footer .footerCopyright .sosial-media img {
   html {
     font-size: 25%;
   }
-  .header {
-    background-size: 24%;
-    height: 65vmin;
-  }
   .header nav {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -2187,13 +2182,16 @@ footer .footerCopyright .sosial-media img {
             flex-direction: column;
   }
   .appPro .appro2 figure {
-    width: 30vh;
+    width: 50vh;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+  .appPro .appro2 figure img {
+    width: 200px;
   }
   .appPro .appro2 .deskripsi h1 {
     color: #00337F;

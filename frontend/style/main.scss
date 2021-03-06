@@ -631,7 +631,7 @@ footer{
                 img{
                     width: 15vh;
                     margin-top: 10px;
-                    margin-left: 230px;
+                    margin-left: 30px;
                 }
             }
             ul{
@@ -640,7 +640,7 @@ footer{
                 width: 30%;
                 list-style: none;
                 margin-top:10px ;
-                margin-left: -35vh;
+             
                 li{
                     a{
                         color: #00337F;
@@ -707,7 +707,7 @@ footer{
         }
     }
     .appPro{
-        margin-top: -500px;
+        margin-top: -80px;
         
        
     }
@@ -1866,8 +1866,8 @@ footer{
       }
       .header{
          
-        background-size: 24%;
-        height: 65vmin;
+        // background-size: 24%;
+        // height: 65vmin;
         nav{
           justify-content: space-between;
               
@@ -2036,12 +2036,12 @@ footer{
              
              flex-direction: column;
            figure{
-               width: 30vh;
+               width: 50vh;
                justify-content: center;
                
                align-self: center;
              img{
-               
+               width: 200px;
  
              }
          }
